@@ -49,4 +49,9 @@ public class M2ainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
 }
